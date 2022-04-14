@@ -8,7 +8,7 @@
 import UIKit
 
 extension UIViewController {
-    func statusBarSize() {
+    func setStatusBar() {
         let statusBarSize = UIApplication.shared.statusBarFrame.size
         let frame = CGRect(origin: .zero, size: statusBarSize)
         let statusBarView = UIView(frame: frame)
