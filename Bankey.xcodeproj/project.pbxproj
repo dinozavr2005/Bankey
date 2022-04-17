@@ -10,6 +10,8 @@
 		E7A3C3B5280731E900A1B412 /* DecimalUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3C3B4280731E900A1B412 /* DecimalUtils.swift */; };
 		E7A3C3B72807416200A1B412 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3C3B62807416200A1B412 /* CurrencyFormatter.swift */; };
 		E7A3C3C6280822B800A1B412 /* CurrencyFormatterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3C3C5280822B800A1B412 /* CurrencyFormatterTests.swift */; };
+		E7A3C3C8280BFCFF00A1B412 /* NSNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3C3C7280BFCFF00A1B412 /* NSNotificationName.swift */; };
+		E7A3C3CA280C00A900A1B412 /* UITeextField+SecureToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7A3C3C9280C00A900A1B412 /* UITeextField+SecureToggle.swift */; };
 		E7CEC42C27FDE9BE00E8A790 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CEC42B27FDE9BE00E8A790 /* AppDelegate.swift */; };
 		E7CEC43027FDE9BE00E8A790 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7CEC42F27FDE9BE00E8A790 /* LoginViewController.swift */; };
 		E7CEC43527FDE9C100E8A790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7CEC43427FDE9C100E8A790 /* Assets.xcassets */; };
@@ -42,6 +44,8 @@
 		E7A3C3B62807416200A1B412 /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
 		E7A3C3BC28081B2B00A1B412 /* BankeyUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BankeyUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7A3C3C5280822B800A1B412 /* CurrencyFormatterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatterTests.swift; sourceTree = "<group>"; };
+		E7A3C3C7280BFCFF00A1B412 /* NSNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotificationName.swift; sourceTree = "<group>"; };
+		E7A3C3C9280C00A900A1B412 /* UITeextField+SecureToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITeextField+SecureToggle.swift"; sourceTree = "<group>"; };
 		E7CEC42827FDE9BE00E8A790 /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7CEC42B27FDE9BE00E8A790 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7CEC42F27FDE9BE00E8A790 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -151,10 +155,12 @@
 		E7CEC44A28021B9D00E8A790 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				E7A3C3C9280C00A900A1B412 /* UITeextField+SecureToggle.swift */,
+				E7A3C3B4280731E900A1B412 /* DecimalUtils.swift */,
 				E7CEC44B28021BB100E8A790 /* LocalState.swift */,
 				E7FDE74A2803032400F8D7B9 /* UIViewController+Utils.swift */,
-				E7A3C3B4280731E900A1B412 /* DecimalUtils.swift */,
 				E7A3C3B62807416200A1B412 /* CurrencyFormatter.swift */,
+				E7A3C3C7280BFCFF00A1B412 /* NSNotificationName.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -303,8 +309,10 @@
 				E7CEC4492802110300E8A790 /* DummyViewController.swift in Sources */,
 				E7A3C3B72807416200A1B412 /* CurrencyFormatter.swift in Sources */,
 				E7A3C3B5280731E900A1B412 /* DecimalUtils.swift in Sources */,
+				E7A3C3C8280BFCFF00A1B412 /* NSNotificationName.swift in Sources */,
 				E7CEC43027FDE9BE00E8A790 /* LoginViewController.swift in Sources */,
 				E7FDE75A2805A4F100F8D7B9 /* AccountSummaryCell.swift in Sources */,
+				E7A3C3CA280C00A900A1B412 /* UITeextField+SecureToggle.swift in Sources */,
 				E7CEC4472800508600E8A790 /* OnboardingViewController.swift in Sources */,
 				E7FDE74F280304EB00F8D7B9 /* MainViewController.swift in Sources */,
 				E7FDE75228048B8100F8D7B9 /* AccountSummaryViewController.swift in Sources */,
